@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #232323;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+}
+
+.navbar {
+		width: 100%; /* Make the navbar extend full width of the viewport */
+		max-width: 5000px;
+		padding: 10px 0; /* Padding around the links */
+		text-align: right; /* Centers the text links */
+		position: fixed; /* Fixed positioning to keep it at the top */
+		top: 0; /* Position the navbar at the very top of the viewport */
+		left: 50%; /* Align the navbar to the left edge of the viewport */
+		transform: translateX(-50%); /* Precise centering */
+		z-index: 1000; /* Ensures the navbar stays on top of other content */
+}
+
+.navbar a {
+    color: #b3b3b3;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #0095ff;
+}
+
+.container {
+	text-align: center;
+	width: 80%;
+	max-width: 300px;
+}
+
+.profile-pic {
+    height: 200px;
+	width: 200px;
+	margin: auto;
+	border-radius: 50%;
+    object-fit: cover;
+}
+
+.blue-line {
+    height: 2px; /* Thickness of the line */
+    background-color: #0056b3; /* Color of the line */
+    width: 50px; /* Length of the line */
+    margin-top: 20px; /* Space above the line */
+    margin-bottom: 20px; /* Space below the line */
+    margin-left: 123px;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #444343; /* Icon color */
+    font-size: 24px; /* Icon size */
+}
+
+.social-links a:hover {
+    color: #0077cc; /* Color changes when hovering over the icon */
+}
+
+.about-me {
+    text-align: center;
+	max-width: 500px;
+	word-wrap: break-word;
+    color: #d3d2d2;
+    padding-bottom: 115px;
+}
+
+header, section, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #d3d2d2;
+}
+
+a {
+    color: #0077cc;
+}
+
+.button-1, .button-2 {
+    background-color: #007BFF; 
+    border: none;
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 15px;
+}
+
+.button-1:hover, .button-2:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+}
+
+
+
+
